@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 4vmin;
+    font-family: Ubuntu, serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #dbc8b9;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("assets/fonts/Ubuntu-Regular.ttf");
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo {
+    height: 20vmin;
+}
+
+.title {
+    font-size: 10vmin;
+}
+
+header {
+    margin-top: 2vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-wrapper {
+    display: flex;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-bottom: 2vmin;
+    display: flex;
+    min-height: 5vmin;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.navbar {
+    margin: 3vmin 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c18153;
+}
+
+.navbar a {
+    font-size: 3vmin;
+    text-decoration: none;
+    color: black;
+    margin: 3vmin 0;
+}
+
+.content {
+    margin: 0 3vmin;
+}
